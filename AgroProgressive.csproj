@@ -7,15 +7,14 @@
     <IsPackable>false</IsPackable>
     <SpaRoot>ClientApp\</SpaRoot>
     <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
-    <Authors>Software Ateliers</Authors>
-    <Company>Software Ateliers</Company>
-    <Description>ASP.NET Core + Vue.js starter project</Description>
-    <Copyright>MIT 2020 Software Ateliers</Copyright>
+    <Authors>Emanuel Stradella</Authors>
+    <Description>PWA para administración ganadera y láctea</Description>
+    <Copyright></Copyright>
     <AssemblyName>AgroProgressive</AssemblyName>
     <RootNamespace>AgroProgressive</RootNamespace>
-    <Version>2.3.0</Version>
-    <AssemblyVersion>2.3.0.0</AssemblyVersion>
-    <FileVersion>2.3.0.0</FileVersion>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

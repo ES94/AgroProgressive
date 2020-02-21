@@ -12,6 +12,23 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# local env files
+/ClientApp/.env.local
+/ClientApp/.env.*.local
+
+# Log files
+/ClientApp/npm-debug.log*
+/ClientApp/yarn-debug.log*
+/ClientApp/yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -25,10 +42,10 @@ bin/
 Bin/
 obj/
 Obj/
+/ClientApp/dist
 
 # Visual Studio 2015 cache/options directory
 .vs/
-/wwwroot/dist/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -182,7 +199,9 @@ ClientBin/
 *.publishsettings
 orleans.codegen.cs
 
-/node_modules
+/ClientApp/.DS_Store
+/ClientApp/node_modules
+/ClientApp/dist
 
 # RIA/Silverlight projects
 Generated_Code/
